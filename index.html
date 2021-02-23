@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Selfie with syntax</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Selfie with syntax ⚡</h2>
+      <p>Incase you feel shy to ask 🙂</p>
+      <div class="upload-btn-wrapper">
+        <button class="btn">Upload my image</button>
+        <input type="file" name="myfile" />
+      </div>
+      <p style="padding: 0 20px">
+        Make sure there is empty space to the left side of image
+      </p>
+      <h3>Output demo 🎨</h3>
+      <div class="bg" id="main">
+        <img id="bg-img" src="bg.jpg" />
+        <img id="fg-img" src="me.png" />
+      </div>
+
+      <p>Take screenshot to save :)</p>
+      <div class="toggle-switch" tabindex="0">
+        <input
+          type="checkbox"
+          name="my_checkbox"
+          value="yes"
+          id="checkbox-id"
+          checked
+        />
+        <label for="checkbox-id">
+          <div class="area" aria-hidden="true">
+            <div class="background">
+              <div class="handle"></div>
+            </div>
+          </div>
+          Black & white
+        </label>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
